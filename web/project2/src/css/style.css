@@ -1,0 +1,65 @@
+body{
+	background-color: #f6f6f6;
+	font-family: 'Tahoma';
+}
+
+
+
+.section-img{
+	width: 45%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.section-text{
+	width: 54%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.clear::after{
+	display: table;
+	clear: both;
+	content: '';
+}
+.section-desc{
+	/* Style for "Накладные" */
+color: #2f2f2f;
+font-size: 24px;
+font-weight: 400;
+width: 630px;
+margin-bottom: 87px;
+}
+.sectoin-caption{
+	/* Style for "Наушники B" */
+color: #2f2f2f;
+font-size: 36px;
+font-weight: 400;
+margin-bottom: 48px;
+}
+.section-price{
+color: #2f2f2f;
+font-size: 24px;
+font-weight: 400;
+margin-bottom: 36px;
+}
+.section-size{
+color: #2f2f2f;
+font-size: 48px;
+font-weight: 400;
+margin-bottom: 90px;;
+}
+button{
+	/* Style for "Прямоуголь" */
+border: none;
+background-color: #ec744a;
+color: #ffffff;
+font-size: 30px;
+font-weight: 400;
+padding: 26px 63px;
+}
+button:focus{
+	outline: none;
+	}
+	section{
+		padding-top: 51px;
+		padding-bottom: 51px;
+	}
