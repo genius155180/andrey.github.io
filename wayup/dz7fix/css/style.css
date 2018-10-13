@@ -1,0 +1,474 @@
+
+@font-face {
+	font-family: 'Natasha';
+	src: url('../font/Natasha/Natasha.eot');
+	src: url('../font/Natasha/Natasha.eot?#iefix') format('embedded-opentype'),
+	url('../font/Natasha/Natasha.woff') format('woff'),
+	url('../font/Natasha/Natasha.ttf') format('truetype'),
+	url('../font/Natasha/Natasha.svg#cuprumffuregular') format('svg');}   
+	@font-face {
+		font-family: 'MuseoSansCyrl900Italic';
+		src: url('../font/MuseoSansCyrl900Italic/MuseoSansCyrl900Italic.eot');
+		src: url('../font/MuseoSansCyrl900Italic/MuseoSansCyrl900Italic.eot?#iefix') format('embedded-opentype'),
+		url('../font/MuseoSansCyrl900Italic/MuseoSansCyrl900Italic.woff') format('woff'),
+		url('../font/MuseoSansCyrl900Italic/MuseoSansCyrl900Italic.ttf') format('truetype'),
+		url('../font/MuseoSansCyrl900Italic/MuseoSansCyrl900Italic.svg#cuprumffuregular') format('svg');}
+		@font-face {
+		font-family: 'MuseoSansCyrl900';
+			src: url('../font/MuseoSansCyrl900/MuseoSansCyrl900.eot');
+			src: url('../font/MuseoSansCyrl900/MuseoSansCyrl900.eot?#iefix') format('embedded-opentype'),
+			url('../font/MuseoSansCyrl900/MuseoSansCyrl900.woff') format('woff'),
+			url('../font/MuseoSansCyrl900/MuseoSansCyrl900.ttf') format('truetype'),
+			url('../font/MuseoSansCyrl900/MuseoSansCyrl900.svg#cuprumffuregular') format('svg');}   
+			@font-face {
+				font-family: 'MuseoSansCyrl300Italic';
+				src: url('../font/MuseoSansCyrl300Italic/MuseoSansCyrl300Italic.eot');
+				src: url('../font/MuseoSansCyrl300Italic/MuseoSansCyrl300Italic.eot?#iefix') format('embedded-opentype'),
+				url('../font/MuseoSansCyrl300Italic/MuseoSansCyrl300Italic.woff') format('woff'),
+				url('../font/MuseoSansCyrl300Italic/MuseoSansCyrl300Italic.ttf') format('truetype'),
+				url('../font/MuseoSansCyrl300Italic/MuseoSansCyrl300Italic.svg#cuprumffuregular') format('svg');}
+				@font-face {
+					font-family: 'MuseoSansCyrl300';
+					src: url('../font/MuseoSansCyrl300/MuseoSansCyrl300.eot');
+					src: url('../font/MuseoSansCyrl300/MuseoSansCyrl300.eot?#iefix') format('embedded-opentype'),
+					url('../font/MuseoSansCyrl300/MuseoSansCyrl300.woff') format('woff'),
+					url('../font/MuseoSansCyrl300/MuseoSansCyrl300.ttf') format('truetype'),
+					url('../font/MuseoSansCyrl300/MuseoSansCyrl300.svg#cuprumffuregular') format('svg');}   
+					@font-face {
+						font-family: 'MuseoSansCyrl100Italic';
+						src: url('../font/MuseoSansCyrl100Italic/MuseoSansCyrl100Italic.eot');
+						src: url('../font/MuseoSansCyrl100Italic/MuseoSansCyrl100Italic.eot?#iefix') format('embedded-opentype'),
+						url('../font/MuseoSansCyrl100Italic/MuseoSansCyrl100Italic.woff') format('woff'),
+						url('../font/MuseoSansCyrl100Italic/MuseoSansCyrl100Italic.ttf') format('truetype'),
+						url('../font/MuseoSansCyrl100Italic/MuseoSansCyrl100Italic.svg#cuprumffuregular') format('svg');}
+						@font-face {
+							font-family: 'MuseoSansCyrl100';
+							src: url('../font/MuseoSansCyrl100/MuseoSansCyrl100.eot');
+							src: url('../font/MuseoSansCyrl100/MuseoSansCyrl100.eot?#iefix') format('embedded-opentype'),
+							url('../font/MuseoSansCyrl100/MuseoSansCyrl100.woff') format('woff'),
+							url('../font/MuseoSansCyrl100/MuseoSansCyrl100.ttf') format('truetype'),
+							url('../font/MuseoSansCyrl100/MuseoSansCyrl100.svg#cuprumffuregular') format('svg');}
+a,li{
+	display: block;
+	color: #fff;
+}
+p{
+	margin: 0px;
+}
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+a:active{
+	text-decoration: none;
+	color: #fff;
+}
+h1,h2{
+	font-family: 'MuseoSansCyrl900';
+
+}
+header{
+	background: url("../img/fonfirst2.png") no-repeat center top / cover;
+	height: 100vh;
+	color: #fff;
+	font-family: 'MuseoSansCyrl900';
+	text-transform: uppercase;
+}
+.header{
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-bottom: 180px;
+}
+.contacts__fix{
+    height: 412px;
+	position: relative;
+}
+.main__row-fix{
+	width: 40px;
+	height: 40px;
+	display: block;
+	border: 2px dashed #fff;
+	border-radius:50%;
+	margin:30px auto;
+
+}
+.contacts__fix h2{
+	text-transform: uppercase;
+	margin-top: -131px;
+	font-family: 'MuseoSansCyrl900';
+	color: #fff;
+	font-size: 51px;
+
+}
+
+.logo a img{
+	max-width: 100%;
+}
+nav ul li a{
+	font-family: 'MuseoSansCyrl900';
+	color: #fff;
+	font-size: 11px;
+
+
+}
+.main__nav{
+	display: flex;
+}
+nav ul li{
+	margin-right: 6px;
+	border: 1px solid rgba(52, 91, 112, 0);
+	border-radius: 5px;
+	padding: 8px 10px;
+}
+nav ul li:hover{
+	border: 1px solid rgb(52, 91, 112);
+	background-color: rgb(52, 91, 112);
+}
+.tel{
+	color: #fff;
+
+	font-size: 16px;
+}
+.tel p{
+    width: 160px;
+}
+.tel li{
+	margin-right:10px;
+}
+h1{
+	font-size: 90px;
+	letter-spacing: 25px;
+}
+.main p{
+	font-size: 51px;
+}
+.fa-angle-down{
+	font-size: 40px;
+}
+.main__row{
+	width: 40px;
+	height: 40px;
+	display: block;
+	border: 2px dashed #fff;
+	border-radius:50%;
+	margin: 0px auto;
+	margin-top: 60px;
+}
+.advantages{
+	color: #000;
+}
+h2{
+	margin-top: 90px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 42px;
+	color: #000000;
+	text-align: center;
+}
+.advantages__item{
+	background-color: #e8e8e8;
+	padding: 45px 20px;
+    height: 360px;
+    width: 380px;
+}
+
+.advantages__item img{
+	margin-bottom: 30px;
+}
+.advantages__item p{
+	margin-top: 40px;
+	font-family: 'MuseoSansCyrl100';
+	font-size: 17px;
+}
+
+/*Блок переезд в Болгарию*/
+.more_information{
+	padding-bottom: 100px;
+	background: url("../img/fonseacond.png") no-repeat center top / cover;
+}
+.white{
+	color: #fff;
+}
+.black{
+	color: black;
+}
+
+.main__menu{
+    display: flex;
+    align-items: center;
+}
+.quote{
+	font-family: 'MuseoSansCyrl100Italic';
+	color: #ffffff;
+	font-size: 18px;
+	margin-top: 34px;
+}
+.quote__autor{
+	margin-top:12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.question span{
+	font-family: 'MuseoSansCyrl900';
+	font-size: 23px;
+}
+.question p{
+	font-size: 19px;
+	font-family: 'MuseoSansCyrl100';
+}
+.question{
+	border: 1px dashed #ffffff;
+	width: 770px;
+	margin: 0px auto;
+	position: relative;
+	margin-top: 53px;
+	padding: 38px 0px;
+	margin-bottom: -30px;
+
+}
+.question i{
+	background-color: #213646;
+	width: 30px;
+	height: 30px;
+	border: 1px dashed #fff;
+	border-radius: 50%;
+	line-height: 30px;
+	text-align: center;
+}
+.up{position: absolute;
+	top: -15px;
+	left: 370px;
+}
+.down{position: absolute;
+	left: 370px;
+	top: 127px;
+}
+.select__offer{
+	font-family: 'MuseoSansCyrl100';
+	font-size: 18px;
+	letter-spacing: 2.5px;
+	margin-bottom: 48px;
+}
+.information__btn{
+	color:#ffffff;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'MuseoSansCyrl900';
+	border: 2px solid silver;
+	border-radius: 3px;
+	width: 216px;
+	margin: 0px auto;
+	justify-content: center;
+	align-items: center;
+	height: 62px;}
+.features{
+	background: url("../img/city.png") no-repeat center top / cover;
+}
+.features__caption{
+	font-family: 'MuseoSansCyrl900';
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.desc{
+	width: 770px;
+	margin:0px auto;
+	text-align: center;
+	background-color:#E8E8E8;
+
+}
+.desc p{
+	font-family: 'MuseoSansCyrl100';
+}
+.desc__next{
+	margin-top: 10px;
+	padding: 50px 26px 45px 26px;
+	margin-bottom: 60px;
+}
+.desc__start{
+	padding: 70px 44px 40px 44px;
+	position: relative;
+	z-index: 10;
+}
+.circle{
+	position: absolute;
+	left: 46%;
+	bottom:-30px;
+}
+.features__imges-list li:nth-child(2){
+	z-index: 11;
+	position:absolute;
+	left: 42%;
+	top: -20px;
+}
+.features__imges-list li:nth-child(1){
+	z-index: 9;
+	position:absolute;
+	left: 36%;
+	top: 45px;
+}
+.features__imges-list li:nth-child(3){
+	z-index: 9;
+	position:absolute;
+	left: 52%;
+	top: 50px;
+}
+.features__imges-list{
+	margin-top: 90px;
+}
+.information__btn-fix{
+	border: 2px solid #23aae2;
+	border-radius: 3px;
+	color:#23aae2;
+	margin-bottom: 100px;
+}
+.information__btn-fix:active,.information__btn-fix:hover{
+	color: #23aae2;
+}
+/*Блок отзывов*/
+.reviews__blok{
+	width: 836px;
+	margin:105px auto;
+	position: relative;
+	background-color: #f3f2f2;
+	padding: 30px 10px;
+}
+.reviews__photo{
+	margin-right: 65px;
+}
+.reviews__name{
+	color: black;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'MuseoSansCyrl900';
+	margin-right: 43px;
+}
+.reviews__link a{
+	color: #23aae2;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'MuseoSansCyrl900';
+	border-bottom: 1px solid #23aae2;
+	margin-right: 150px;
+}
+.reviews__location a{
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	color: #23aae2;
+}
+.reviews__text{
+	font-family: 'MuseoSansCyrl100Italic';
+}
+.fa-chevron-left,.fa-chevron-right{
+	position: absolute;
+	color:#23aae2 ;
+	font-size: 30px;
+	top: 80px;
+}
+.left{
+	left: -80px;
+}
+.right{
+	right: -70px;
+}
+.reviews__bulet span a{
+	display: block;
+	width: 19px;
+	height: 19px;
+	border: 1px dashed #23aae2;
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-top: -40px;
+	margin-bottom: 90px;
+}
+.reviews__bulet span a:active{
+	background-color: #23aae2;
+}
+/*Блок консультации*/
+.consultation{
+	background: url("../img/consultationblok2.png") no-repeat center top / cover;
+}
+.consultation-caption__desc{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'MuseoSansCyrl100';
+	font-size: 21px;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+.consultation__row{
+	width: 40px;
+	height: 40px;
+    border: 2px dashed #fff;
+	border-radius:50%;
+	margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{width: 370px;
+	display: block;
+	font-family: 'MuseoSansCyrl300';
+	text-transform:uppercase;
+	color: #80e7ff;
+	background-color: #30c2ff;
+	border:1px solid #fff;
+	border-radius: 3px;
+	padding: 20px 0px 20px 35px;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	
+}
+input:focus{
+	color:#fff;
+}
+.consultation__form a{
+	text-align: center;
+	display: block;
+	font-family: 'MuseoSansCyrl900';
+	width: 370px;
+	margin: 20px auto;
+	border: 3px solid #fff; 
+	padding: 20px 0px;
+	text-transform: uppercase;
+	border-radius: 3px;
+}
+footer{
+	background-color: #23aae2;
+}
+.tel p{
+	font-family: 'MuseoSansCyrl900';
+
+}
+.footer__tel{
+	display: flex;
+	margin-left: 50px;
+}
+.footer__link a{
+	border-bottom: 1px dashed #fff;
+
+}
+.contacts__information-blok{
+	position:absolute;
+	width: 1030px;
+	height: 660px;
+	background-color: #ff771c;
+	left: 160px;
+	top: 300px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
