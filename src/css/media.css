@@ -1,0 +1,46 @@
+@media (max-width: 992px) {
+  .header-button {
+    font-size: 13px;
+    padding: 10px 10px;
+  }
+  .header-phone{
+    flex-direction: column
+  }
+  .header-contacts__phone-o {
+	border-right: none;
+    padding-right: 13px;
+}
+.main-image{
+    display: none;
+}
+.main-title{
+    text-align: center;
+}
+}
+@media (max-width: 768px){
+    .main-image{
+        display: none;
+    }
+    .main-title{
+        text-align: center;
+    }
+    .main-form{
+        margin: 20 auto;
+        width: 515px;
+    }
+}
+@media (max-width: 576px){
+    .main-form{
+        margin: 20 auto;
+        width: 510px;
+        background-color: transparent;
+        text-align: center;
+    }
+    .form input{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .header-logo{
+        width: 100px;
+    }
+}

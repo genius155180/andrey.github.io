@@ -1,0 +1,175 @@
+.header {
+  padding: 15px 0px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  width: 968px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button,
+input {
+  cursor: pointer;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-contacts__phone {
+  color: #373737;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 32px;
+}
+
+.header-button {
+  background-color: #ff9d00;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  border-radius: 4px;
+}
+
+.header-button img {
+  min-height: 20px;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.header-contacts__phone {
+  margin-right: 13px;
+}
+
+.header-contacts__phone a {
+  color: #373737;
+}
+
+.header-contacts__phone-o {
+  border-right: 1px solid #cfcfd0;
+  padding-right: 13px;
+}
+body {
+  font-size: 90px;
+}
+.header {
+  padding: 15px 0px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  width: 968px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button,
+input {
+  cursor: pointer;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-contacts__phone {
+  color: #373737;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 32px;
+}
+
+.header-button {
+  background-color: #ff9d00;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  border-radius: 4px;
+}
+
+.header-button img {
+  min-height: 20px;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.header-contacts__phone {
+  margin-right: 13px;
+}
+
+.header-contacts__phone a {
+  color: #373737;
+}
+
+.header-contacts__phone-o {
+  border-right: 1px solid #cfcfd0;
+  padding-right: 13px;
+}
+
+body {
+  font-size: 90px;
+}
